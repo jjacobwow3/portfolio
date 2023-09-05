@@ -207,6 +207,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 #socials-container {
@@ -326,8 +327,18 @@ section {
 }
 
 .text-container {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
+
+/* Skills */
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
+
+/* Projects */
+
 
 /* Contact */
 
