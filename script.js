@@ -4,3 +4,7 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}

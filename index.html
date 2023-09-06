@@ -9,7 +9,7 @@
 
     </head>
     <body>
-        <nav id="desktop-nav">
+        <nav role="main" id="desktop-nav">
             <div class="logo">Jacob Ma 🔥</div>
             <div>
                 <ul class="nav-links">
@@ -20,7 +20,7 @@
                 </ul>
             </div>
         </nav>
-        <nav id="hamburger-nav">
+        <nav role="main" id="hamburger-nav">
             <div class="logo">Jacob Ma 🔥</div>
             <div class="hamburger-menu">
                 <div class="hamburger-icon" onclick="toggleMenu()">
@@ -61,8 +61,13 @@
                         <img src="./assets/github.png" alt = "My Github profile" 
                         class="icon">
                     </a>
+                    <a href="https://open.spotify.com/user/xo9vhq71lg0u15rligw9s0exc?si=04834df1ee8a4995" target="_blank">
+                        <img src="./assets/spotify.png" alt = "My Spotify profile" 
+                        class="icon">
+                    </a>                
                 </div>
             </div>
+     
         </section>
         <section id="about">
             <p class="section__text__p1">Get To Know More</p>
@@ -101,20 +106,101 @@
         </section>
 
         <section id="skills">
-            <p class="section__text__p1">Check Out My</p>
+            <p class="section__text__p1">My Favourite</p>
             <h1 class="title">Skills</h1>
-            <div></div>
+
+            <div>
+
+            </div>
+
             <img
-            src="./assets/arrow.png"
-            alt="Arrow icon"
-            class="icon arrow"
-            onclick="location.href='./#projects'"
+                src="./assets/arrow.png"
+                alt="Arrow icon"
+                class="icon arrow"
+                onclick="location.href='./#projects'"
             />            
         </section>
 
         <section id="projects">
-            <p class="section__text__p1">Browse My</p>
-            <h1 class="title">Projects</h1>   
+            <p class="section__text__p1">Check Out My</p>
+            <h1 class="title">Projects</h1>
+            <div class="project-details-container">
+                <div class="about-containers">
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                                src="./assets/simmons.png" 
+                                alt="Project 1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="project-sub-title project-title">NBA 2k Simulator</h2>
+                        <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/bleed3m/'"
+                            >
+                                Github
+                            </button>
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/bleed3m/'"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                                src="./assets/reyna.jpg" 
+                                alt="Project 1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="project-sub-title project-title">Luxury Car Rental</h2>
+                        <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/bleed3m/'"
+                            >
+                                Github
+                            </button>
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/bleed3m/'"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-container color-container">
+                        <div class="article-container">
+                            <img 
+                                src="./assets/zyra.jpg" 
+                                alt="Project 1"
+                                class="project-img"
+                            />
+                        </div>
+                        <h2 class="project-sub-title project-title">Game Project</h2>
+                        <div class="btn-container">
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/bleed3m/'"
+                            >
+                                Github
+                            </button>
+                            <button 
+                                class="btn btn-color-2 project-btn" 
+                                onclick="location.href='https://github.com/bleed3m/'"
+                            >
+                                Live Demo
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <img 
             src="./assets/arrow.png" 
             alt="Arrow icon" 
@@ -143,19 +229,20 @@
                     <p><a href="https://www.linkedin.com/in/jacobma03/" target="_blank">LinkedIn</a></p>
                 </div>
             </div>
+            <footer>
+                <nav>
+                    <div class="nav-links-container">
+                        <ul class="nav-links">
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </footer>
         </section>
-        <footer>
-            <nav>
-                <div class="nav-links-container">
-                    <ul class="nav-links">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </footer>
+        
         <script src="script.js"></script>
     </body>
 </html>
