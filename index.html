@@ -66,13 +66,12 @@
                         class="icon">
                     </a>                
                 </div>
-            </div>
-     
+            </div>     
         </section>
-        <section id="about">
-            <p class="section__text__p1">Get To Know More</p>
-            <h1 class="title">About Me</h1>
-            <div class="section-container"> 
+        <section id="about" >
+            <p class="section__text__p1 hidden">Get To Know More</p>
+            <h1 class="title hidden">About Me</h1>
+            <div class="section-container hidden"> 
                 <div class="section__pic-container">
                     <img 
                     src="./assets/yb.png"
@@ -100,14 +99,13 @@
             <img 
             src="./assets/arrow.png" 
             alt="Arrow icon" 
-            class="icon arrow"
+            class="icon arrow hidden"
             onclick="location.href='./#skills'"
             />
         </section>
-
         <section id="skills">
-            <p class="section__text__p1">My Favourite</p>
-            <h1 class="title">Skills</h1>
+            <p class="section__text__p1 hidden">My Favourite</p>
+            <h1 class="title hidden">Skills</h1>
 
             <div>
 
@@ -116,17 +114,16 @@
             <img
                 src="./assets/arrow.png"
                 alt="Arrow icon"
-                class="icon arrow"
+                class="icon arrow hidden"
                 onclick="location.href='./#projects'"
             />            
         </section>
-
         <section id="projects">
-            <p class="section__text__p1">Check Out My</p>
-            <h1 class="title">Projects</h1>
+            <p class="section__text__p1 hidden">Check Out My</p>
+            <h1 class="title hidden">Projects</h1>
             <div class="project-details-container">
-                <div class="about-containers">
-                    <div class="details-container color-container">
+                <div class="project-about-containers">
+                    <div class="project-container color-container hidden">
                         <div class="article-container">
                             <img 
                                 src="./assets/simmons.png" 
@@ -150,7 +147,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="details-container color-container">
+                    <div class="project-container color-container hidden">
                         <div class="article-container">
                             <img 
                                 src="./assets/reyna.jpg" 
@@ -174,7 +171,7 @@
                             </button>
                         </div>
                     </div>
-                    <div class="details-container color-container">
+                    <div class="project-container color-container hidden">
                         <div class="article-container">
                             <img 
                                 src="./assets/zyra.jpg" 
@@ -200,19 +197,17 @@
                     </div>
                 </div>
             </div>
-
             <img 
             src="./assets/arrow.png" 
             alt="Arrow icon" 
-            class="icon arrow"
+            class="icon arrow hidden"
             onclick="location.href='./#contact'"
             />         
         </section>
-
         <section id="contact">
-            <p class="section__text__p1">Get in Touch</p>
-            <h1 class="title">Contact Me</h1>
-            <div class="contact-info-upper-container">
+            <p class="section__text__p1 hidden">Get in Touch</p>
+            <h1 class="title hidden">Contact Me</h1>
+            <div class="contact-info-upper-container hidden">
                 <div class="contact-info-container">
                     <img src="./assets/email.png" 
                     alt="Email icon"
@@ -229,7 +224,7 @@
                     <p><a href="https://www.linkedin.com/in/jacobma03/" target="_blank">LinkedIn</a></p>
                 </div>
             </div>
-            <footer>
+            <footer class="hidden">
                 <nav>
                     <div class="nav-links-container">
                         <ul class="nav-links">
@@ -242,7 +237,7 @@
                 </nav>
             </footer>
         </section>
-        
+        <script src="app.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
