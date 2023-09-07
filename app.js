@@ -1,3 +1,9 @@
+const observerOptions = {
+    root: null,
+    threshold: 0,
+    rootMargin: '0 0 -50px 0'
+};
+
 const observer = new IntersectionObserver((entries)=> {
     entries.forEach((entry) => {
         console.log(entry)
@@ -5,11 +11,13 @@ const observer = new IntersectionObserver((entries)=> {
             entry.target.classList.add('show');
         }       
     });
-});
+}, observerOptions);
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+// Project fade in
+/*
 let options = {
     threshold: 0.1,
 };
@@ -29,3 +37,4 @@ let callback = (entries, projectObserver) => {
         };
     });
 };
+/*
