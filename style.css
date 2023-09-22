@@ -361,6 +361,7 @@ section {
 
 .text-container {
     font-size: 1.5rem;
+    line-height: 2;
 }
 
 /* Skills */
@@ -369,13 +370,14 @@ section {
     position: relative;
 }
 
-.skills-details-container {
+.skills-big-container {
+    height: fit-content;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.skills-about-containers {
+.skills-container-container {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -383,7 +385,7 @@ section {
 }
 
 .skills-container {
-    padding: 1.5rem;
+    padding: 6rem;
     flex: 1;
     background: white;
     border-radius: 2rem;
@@ -400,8 +402,22 @@ section {
     transition-delay: 200ms;
 }
 
+.skills-article-container {
+    display: flex;
+    margin-top: 5rem;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
 .skills-icons {
-    margin-top: 1rem;
+    margin-top: 3rem;
+}
+
+.skills-title {
+    margin-bottom: 2;
 }
 
 /* Projects */
