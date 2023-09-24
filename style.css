@@ -414,18 +414,46 @@ section {
     justify-content: space-around;
 }
 
+.skills-icon:hover {
+    cursor: default;
+}
+
 .skills-icon {
     max-height: 100px;
     max-width: 100px;
     object-fit: contain;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    transform-origin: bottom; 
 }
 
-.skills-icon:hover {
-    cursor: pointer;
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease-in-out;
 }
 
-.skills-title {
-    margin-bottom: 2;
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(-10px) scale(1.05);
+    }
+}
+
+.bounce {
+    animation-name: reverse;
+    animation-duration: 0.2s;
+}
+
+@keyframes reverse {
+    from {
+        transform: translateY(-10px) scale(1.05);
+    }
+    to {
+        transform: translateY(0) scale(1);
+    }
 }
 
 /* Projects */
@@ -562,7 +590,3 @@ section {
     transform: translateX(0);
 }
 
-.center {
-    margin: auto;
-    display: block;
-}
