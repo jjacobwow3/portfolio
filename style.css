@@ -591,3 +591,10 @@ section {
     filter: blur(0);
     transform: translateX(0);
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    
+}
