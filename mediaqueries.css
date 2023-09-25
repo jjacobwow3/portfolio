@@ -42,6 +42,7 @@
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
+        z-index: 0;
     }
     .section__pic-container2 {
         width: 275px;
@@ -117,6 +118,7 @@
         max-height: 200%;
     }
     .crown {
+        position: absolute;
         max-height: 7%;
         top: 90px;
         left: 168px;
