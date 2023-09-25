@@ -106,6 +106,7 @@ a:hover {
     right: 0;
     width: fit-content;
     max-height: 0;
+    background-color: white;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
     z-index: 1;
