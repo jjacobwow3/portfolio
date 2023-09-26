@@ -10,6 +10,9 @@
     #projects {
         height: fit-content;
     }
+    .mobile-hide {
+        display: none;
+    }
 }
 
 .about-containers {
@@ -52,9 +55,6 @@
     .about-containers {
         width: 100%;
         margin-top: 0;
-    }
-    .mobile-hide {
-        display: none;
     }
 }
 
