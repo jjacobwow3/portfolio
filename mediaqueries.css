@@ -50,6 +50,7 @@
         margin: 0 auto 2rem;
     }
     .about-containers {
+        width: 100%;
         margin-top: 0;
     }
     .mobile-hide {
@@ -105,7 +106,7 @@
     }
     .text-container {
         margin-top: 9rem;
-        text-align: justify;
+        text-align: start;
         font-size:medium;
     }
     .skills-container-container {
