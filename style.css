@@ -335,10 +335,11 @@ section {
 }
 
 .about-containers {
-    width: 80%;
+    width: 100%;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -442,8 +443,7 @@ section {
 }
 
 .skills-icon {
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 4rem;
     object-fit: contain;
     animation-duration: 0.2s;
     animation-fill-mode: forwards;
@@ -613,10 +613,4 @@ section {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
-}
-
-.center {
-    margin-left: 10rem;
-    margin-bottom: 2rem;
-    
 }
