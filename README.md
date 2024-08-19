@@ -1,2 +1,1 @@
-it me </br>
-https://jjacobwow3.github.io/portfolio/
+## Check it out!
